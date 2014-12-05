@@ -1,0 +1,24 @@
+{
+  "name": "Test Server 1",
+  "port": 3000,
+  "requests": [
+    {
+      "name": "Default test",
+      "path": "/",
+      "type": "GET",
+      "response": {
+        "type": "String",
+        "value": "Hello World, this is a generated response."
+      }
+    },
+    {
+      "name": "Default JSON generated",
+      "path": "/json",
+      "type": "GET",
+      "response": {
+        "type": "dummyJSON",
+        "file": "dummy.data.json"
+      }
+    }
+  ]
+}
